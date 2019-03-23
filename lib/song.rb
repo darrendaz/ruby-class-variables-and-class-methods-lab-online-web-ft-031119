@@ -35,14 +35,6 @@ class Song
   def artist_count
     
   end
-  
-  name = []
-  
-  artists = []
-  
-  genres = []
-  
-
 
 end
 
