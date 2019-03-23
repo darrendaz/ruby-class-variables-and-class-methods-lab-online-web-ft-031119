@@ -36,3 +36,6 @@ class Song
 
 
 end
+
+
+ninety_nine_problems = Song.new()
