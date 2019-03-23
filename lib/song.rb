@@ -7,4 +7,6 @@ class Song
     @genre = genre
   end
   
+  @@count = Song.
+  @@genres = Song.
 end
