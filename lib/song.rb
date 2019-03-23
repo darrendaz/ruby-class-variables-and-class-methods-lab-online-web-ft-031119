@@ -14,6 +14,8 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
+    
+    @@artist << @artist
   end
   
   def count
@@ -21,7 +23,7 @@ class Song
   end
   
   def artists
-    
+    @@artists
   end
   
   def genres
