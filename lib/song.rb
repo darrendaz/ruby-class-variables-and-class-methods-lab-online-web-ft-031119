@@ -35,7 +35,7 @@ class Song
     @@genres.uniq.each {|genre|
       hash = {"#{genre}" = @@genres.count(genre)}
     }
-    
+  hash
   end
   
   def artist_count
