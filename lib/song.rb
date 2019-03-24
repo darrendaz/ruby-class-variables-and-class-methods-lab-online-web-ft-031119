@@ -44,7 +44,7 @@ class Song
     hash = {}
     
     @@artists.uniq.each {|artist|
-      hash[artist] = @@artists.count(genre)}
+      hash[artist] = @@artists.count(artist)}
       hash
   end
 
