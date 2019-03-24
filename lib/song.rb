@@ -33,7 +33,7 @@ class Song
   def self.genre_count
     hash = {}
     @@genres.uniq.each {|genre|
-      hash = {"#{genre}" => @@genres.count(genre)}
+      hash[genre}] => @@genres.count(genre)}
     }
   hash
   end
