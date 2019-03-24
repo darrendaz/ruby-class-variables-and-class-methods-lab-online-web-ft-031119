@@ -32,7 +32,9 @@ class Song
   
   def genre_count
     hash = {}
-    @@genres.count(|genre| )
+    @@genres.uniq.each {|genre|
+      @@genres.count(genre)
+    }
     
 #     ary = [1, 2, 4, 2]
 #     ary.count             #=> 4
